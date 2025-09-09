@@ -1,0 +1,17 @@
+fos_hostname          = "https://fg-vip.example.com"
+fos_token             = "REEMPLAZAR_POR_SECRET"
+fos_vdom              = "root"
+fos_insecure          = false
+fos_cabundlefile      = null
+
+sdn_name              = "azure-sdn"
+sdn_status            = "enable"
+sdn_update_interval   = 60
+sdn_use_metadata_iam  = "disable"
+
+azure_tenant_id       = "00000000-0000-0000-0000-000000000000"
+azure_subscription_id = "11111111-1111-1111-1111-111111111111"
+azure_client_id       = "22222222-2222-2222-2222-222222222222"
+azure_client_secret   = "REEMPLAZAR_POR_SECRET"
+azure_resource_group  = "rg-apps-prod"
+azure_region          = "global"
